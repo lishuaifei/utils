@@ -7,24 +7,24 @@
  *  disclose such Confidential Information and shall use it only in
  *  accordance with the terms of the license agreement you entered into with CCS.
  */
-		package com.ccs.core.util.redis;
+package com.ccs.core.util.redis;
 
-		import java.io.InputStream;
-		import java.nio.charset.Charset;
-		import java.util.ArrayList;
-		import java.util.List;
-		import java.util.Properties;
+import java.io.InputStream;
+import java.nio.charset.Charset;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
 
-		import redis.clients.jedis.JedisPoolConfig;
-		import redis.clients.jedis.JedisShardInfo;
-		import redis.clients.jedis.ShardedJedis;
-		import redis.clients.jedis.ShardedJedisPool;
-		import redis.clients.util.Hashing;
-		import redis.clients.util.Sharded;
+import redis.clients.jedis.JedisPoolConfig;
+import redis.clients.jedis.JedisShardInfo;
+import redis.clients.jedis.ShardedJedis;
+import redis.clients.jedis.ShardedJedisPool;
+import redis.clients.util.Hashing;
+import redis.clients.util.Sharded;
 
-		import com.ccs.core.util.StringUtil;
-		import com.ccs.core.util.TSerUtils;
-		import com.google.gson.Gson;
+import com.ccs.core.util.StringUtil;
+import com.ccs.core.util.TSerUtils;
+import com.google.gson.Gson;
 
 /**
  * Use Redis to implement our own cache utility.

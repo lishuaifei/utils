@@ -7,24 +7,24 @@
  *  disclose such Confidential Information and shall use it only in
  *  accordance with the terms of the license agreement you entered into with CCS.
  */
-		package com.ccs.core.util.redis;
+package com.ccs.core.util.redis;
 
 
-		import java.util.HashMap;
-		import java.util.List;
-		import java.util.Map;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
-		import javax.servlet.http.Cookie;
-		import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
 
-		import org.apache.commons.logging.Log;
-		import org.apache.commons.logging.LogFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 
-		import com.ccs.ssmis.bs.dto.UserInfoDto;
-		import com.ccs.ssmis.bs.pojo.BsSysDic;
-		import com.ccs.ssmis.bs.pojo.BsSysParam;
-		import com.ccs.ssmis.bs.pojo.BsSysUser;
-		import com.google.gson.Gson;
+import com.ccs.ssmis.bs.dto.UserInfoDto;
+import com.ccs.ssmis.bs.pojo.BsSysDic;
+import com.ccs.ssmis.bs.pojo.BsSysParam;
+import com.ccs.ssmis.bs.pojo.BsSysUser;
+import com.google.gson.Gson;
 
 /**
  * Manage life cycle of redis pool

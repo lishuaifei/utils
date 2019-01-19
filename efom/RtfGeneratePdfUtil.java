@@ -7,20 +7,20 @@
  *  disclose such Confidential Information and shall use it only in
  *  accordance with the terms of the license agreement you entered into with CCS.
  */
-		package com.ccs.core.util.efom;
+package com.ccs.core.util.efom;
 
-		import java.io.BufferedWriter;
-		import java.io.File;
-		import java.io.FileOutputStream;
-		import java.io.FileWriter;
-		import java.io.IOException;
-		import java.io.OutputStreamWriter;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
 
-		import oracle.apps.xdo.template.FOProcessor;
+import oracle.apps.xdo.template.FOProcessor;
 
-		import com.ccs.core.util.RtfTemplateUtil;
-		import com.ccs.core.util.StringUtil;
-		import com.thoughtworks.xstream.XStream;
+import com.ccs.core.util.RtfTemplateUtil;
+import com.ccs.core.util.StringUtil;
+import com.thoughtworks.xstream.XStream;
 /**
  * rtf templates generate PDF files
  *
